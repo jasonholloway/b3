@@ -1,0 +1,10 @@
+*.class
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+out
+*~
+*.swp
+target
