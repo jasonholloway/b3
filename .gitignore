@@ -8,3 +8,4 @@ dist
 *swp
 *~
 *lock.json
+*.env
