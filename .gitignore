@@ -1,0 +1,10 @@
+node_modules
+target
+dist
+.ts-node
+.idea
+*.iml
+.classpath
+*swp
+*~
+*lock.json

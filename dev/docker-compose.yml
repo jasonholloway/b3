@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  sdb:
+    image: aglover/simpledb-pier
+  s3:
+    image: lphoward/fake-s3
+  # lambda:
+  #   image: lambci/lambda:java8
+  #   volumes:
+  #     - ~/src/bb/commit:/var/task

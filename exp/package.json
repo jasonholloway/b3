@@ -1,0 +1,19 @@
+{
+  "name": "exp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.2",
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^8.0.14",
+    "@types/uuid": "^3.4.0"
+  }
+}

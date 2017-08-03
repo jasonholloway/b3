@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "outDir": "dist",
+        "module": "commonjs",
+        "experimentalDecorators": true,
+        "inlineSourceMap": true,
+        "inlineSources": true
+    },
+    "include": [
+        "src/**/*"
+    ]    
+}
