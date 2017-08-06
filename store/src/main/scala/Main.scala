@@ -1,9 +1,8 @@
-package woodpigeon.bb.commit
+package woodpigeon.bb.store
 
 import java.io.{BufferedReader, ByteArrayInputStream, ByteArrayOutputStream, InputStreamReader}
 
 import com.amazonaws.services.lambda.runtime.Context
-import io.github.mkotsur.aws.handler.Lambda
 
 object Main extends App {
   val streamReader = new InputStreamReader(System.in)
@@ -11,7 +10,7 @@ object Main extends App {
 
   reader.lines().forEach(l => {
     val context = createContext("myFunction")
-    val handler = new UpdateHandler()
+    val handler = new Handler()
 
     val input = new ByteArrayInputStream(l.getBytes("UTF-8"))
     val output = new ByteArrayOutputStream(4096)
