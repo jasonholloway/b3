@@ -9,3 +9,4 @@ dist
 *~
 *lock.json
 *.env
+*.log
