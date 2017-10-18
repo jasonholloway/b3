@@ -3,8 +3,8 @@
 	url = git@github.com:jasonholloway/b3-store.git
 [submodule "sbt-proguard"]
 	path = sbt-proguard
-	url = git@github.com:LolHens/sbt-proguard.git
+	url = git@github.com:jasonholloway/sbt-proguard.git
 [submodule "store-ts"]
 	path = store-ts
-	url = git@github.com:jasonholloway/br-store-ts.git
+	url = git@github.com:jasonholloway/b3-store-ts.git
 
