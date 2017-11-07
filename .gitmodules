@@ -4,3 +4,6 @@
 [submodule "store-ts"]
 	path = store-ts
 	url = git@github.com:jasonholloway/b3-store-ts.git
+[submodule "sbt-proguard"]
+	path = sbt-proguard
+	url = git@github.com:jasonholloway/sbt-proguard
